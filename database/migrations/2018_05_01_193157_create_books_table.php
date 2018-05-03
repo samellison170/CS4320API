@@ -23,7 +23,6 @@ class CreateBooksTable extends Migration
             $table->string('title');
             $table->boolean('checked_out');
             $table->string('condition');
-            $table->DateTime('acquisition_date');
             $table->timestamps();
         });
     }
