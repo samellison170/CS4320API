@@ -24,6 +24,7 @@ class CreateBooksTable extends Migration
             $table->boolean('checked_out');
             $table->string('condition');
             $table->timestamps();
+	    $table->softDeletes();
         });
     }
 

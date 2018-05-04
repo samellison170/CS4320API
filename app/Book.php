@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Book extends Model
 {
@@ -15,8 +16,6 @@ class Book extends Model
 		'title' => "unknown",
 		'checked_out' => 0,
 		'condition' => "New",
-		$table->timestamps();
         );
         protected $dates = ['deleted_at'];
-	
 }
