@@ -1,9 +1,12 @@
-# Group Members
+#CS4320 Final Project
+## Group Members
 * John Lund-Molfese
 * Sam Ellison
 * Jorden Whitbey
 * Dylan Mouser
 * William Gregory
+## Axosoft Link
+https://spevy3.axosoft.com
 
 # Data Model
             increments('id')
