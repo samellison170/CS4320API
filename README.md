@@ -24,7 +24,10 @@ https://spevy3.axosoft.com
 # API Function Calls
 
 ## Index of all Books
-
+http://solunae.tk/list
 ## Add Book
-
+http://solunae.tk/add/b?
+## Update Book
+http://solunae.tk/update/b?b
 ## Remove Book
+http://solunae.tk/remove/b?b
