@@ -1,4 +1,4 @@
-#CS4320 Final Project
+# CS4320 Final Project
 ## Group Members
 * John Lund-Molfese
 * Sam Ellison
