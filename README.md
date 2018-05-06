@@ -26,7 +26,8 @@ https://spevy3.axosoft.com
 ## Index of all Books
 http://solunae.tk/list
 ## Show a Single Book
-http://solunae.tk/show/$id
+http://solunae.tk/show/
+* Example: http://solunae.tk/show/2
 ## Add Book
 http://solunae.tk/add/Book?
 * Example: http://solunae.tk/add/Book?isbn=18372583&published_year=1776&publisher=Penguin&genre=Science%20Fiction&author=Jack%20London&title=The%20Chasm%20of%20Mars&checked_out=0&condition=Good
@@ -37,3 +38,4 @@ http://solunae.tk/update/Book?Property1&Property2&etc
 
 ## Remove Book
 http://solunae.tk/remove/$id
+* Example: http://solunae.tk/remove/2
