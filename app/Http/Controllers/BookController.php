@@ -56,7 +56,7 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
-    public function show(id)
+    public function show($id)
     {
         $book = Book::find($id);
         return $book;
