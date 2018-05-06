@@ -30,6 +30,9 @@ http://solunae.tk/show/$id
 ## Add Book
 http://solunae.tk/add/Book?
 ## Update Book
-http://solunae.tk/update/Book?
+http://solunae.tk/update/Book?Property1&Property2&etc
+* Can be used to check books in and out
+* Example: http://solunae.tk/update/1?checked_out=0
+
 ## Remove Book
 http://solunae.tk/remove/$id
