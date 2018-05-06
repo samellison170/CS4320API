@@ -1,8 +1,6 @@
 <?php
 Route::get('/list', 'BookController@index');
-Route::get('/add', 'BookController@store');
-Route::get('/update', 'BookController@update');
-Route::get('/remove', 'BookController@destroy');
-
-
-
+Route::get('/show/{book}', 'BookController@show');
+Route::get('/add/{book}', 'BookController@store');
+Route::get('/update/{book}', 'BookController@update');
+Route::get('/remove/{book}', 'BookController@destroy');
