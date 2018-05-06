@@ -26,10 +26,10 @@ https://spevy3.axosoft.com
 ## Index of all Books
 http://solunae.tk/list
 ## Show a Single Book
-http://solunae.tk/show/1
+http://solunae.tk/show/$id
 ## Add Book
-http://solunae.tk/add/b?
+http://solunae.tk/add/Book?
 ## Update Book
-http://solunae.tk/update/b?b
+http://solunae.tk/update/Book?
 ## Remove Book
-http://solunae.tk/remove/b?b
+http://solunae.tk/remove/$id
