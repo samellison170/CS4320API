@@ -25,18 +25,7 @@ class BookController extends Controller
      */
     public function create()
     {
-        $book = new Book;
-        $book->isbn = $request->isbn;
-        $book->name = $request->name;
-        if(\Request::has('published_year')) $book->published_year = $request->published_year;
-        if(\Request::has('publisher')) $book->publisher = $request->publisher;
-        if(\Request::has('genre')) $book->genre = $request->genre;
-        if(\Request::has('author')) $book->author = $request->author;
-        if(\Request::has('title')) $book->title = $request->title;
-        if(\Request::has('checked_out')) $book->checked_out = $request->checked_out;
-        if(\Request::has('condition')) $book->condition = $request->condition;
-        $book->save();
-        return $book->id;
+
     }
 
     /**
@@ -47,7 +36,18 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $book = new Book;
+      $book->isbn = $request->isbn;
+      $book->name = $request->name;
+      if(\Request::has('published_year')) $book->published_year = $request->published_year;
+      if(\Request::has('publisher')) $book->publisher = $request->publisher;
+      if(\Request::has('genre')) $book->genre = $request->genre;
+      if(\Request::has('author')) $book->author = $request->author;
+      if(\Request::has('title')) $book->title = $request->title;
+      if(\Request::has('checked_out')) $book->checked_out = $request->checked_out;
+      if(\Request::has('condition')) $book->condition = $request->condition;
+      $book->save();
+      return $book->id;
     }
 
     /**
