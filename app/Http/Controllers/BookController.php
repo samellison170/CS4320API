@@ -38,7 +38,6 @@ class BookController extends Controller
     {
       $book = new Book;
       $book->isbn = $request->isbn;
-      $book->name = $request->name;
       if(\Request::has('published_year')) $book->published_year = $request->published_year;
       if(\Request::has('publisher')) $book->publisher = $request->publisher;
       if(\Request::has('genre')) $book->genre = $request->genre;
