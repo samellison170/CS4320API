@@ -39,3 +39,7 @@ http://solunae.tk/update/Book?Property1&Property2&etc
 ## Remove Book
 http://solunae.tk/remove/$id
 * Example: http://solunae.tk/remove/2
+## Display all checked-in books
+http://solunae.tk/in
+## Display all checked-out books
+http://solunae.tk/out
