@@ -29,6 +29,7 @@ http://solunae.tk/list
 http://solunae.tk/show/$id
 ## Add Book
 http://solunae.tk/add/Book?
+* Example: http://solunae.tk/add/Book?isbn=18372583&published_year=1776&publisher=Penguin&genre=Science%20Fiction&author=Jack%20London&title=The%20Chasm%20of%20Mars&checked_out=0&condition=Good
 ## Update Book
 http://solunae.tk/update/Book?Property1&Property2&etc
 * Can be used to check books in and out
