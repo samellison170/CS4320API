@@ -25,6 +25,8 @@ https://spevy3.axosoft.com
 
 ## Index of all Books
 http://solunae.tk/list
+## Show a Single Book
+http://solunae.tk/show/1
 ## Add Book
 http://solunae.tk/add/b?
 ## Update Book
