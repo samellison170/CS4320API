@@ -67,11 +67,17 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
-    public function edit(Book $book)
+    public function out()
     {
-        //
+      $books = \DB::table('books')->where('checked_out', '=', 1)->get();
+      return $books;
     }
 
+    public function in()
+    {
+      $books = \DB::table('books')->where('checked_out', '=', 0)->get();
+      return $books;
+    }
     /**
      * Update the specified resource in storage.
      *
