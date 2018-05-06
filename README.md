@@ -2,7 +2,7 @@
 ## Group Members
 * John Lund-Molfese
 * Sam Ellison
-* Jorden Whitbey
+* Jorden Carter-Whitbey
 * Dylan Mouser
 * William Gregory
 ## Axosoft Link
