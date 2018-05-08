@@ -43,3 +43,5 @@ http://solunae.tk/remove/$id
 http://solunae.tk/in
 ## Display all checked-out books
 http://solunae.tk/out
+
+https://www.youtube.com/watch?v=Y2RTTqdbOfo
